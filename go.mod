@@ -3,7 +3,7 @@ module github.com/notaryproject/nv2
 go 1.16
 
 require (
-	github.com/docker/cli v20.10.5+incompatible
+	github.com/docker/cli v20.10.8+incompatible
 	github.com/docker/distribution v0.0.0-20210206161202-6200038bc715
 	github.com/docker/docker v20.10.5+incompatible // indirect
 	github.com/docker/docker-credential-helpers v0.6.3 // indirect
