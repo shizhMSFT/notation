@@ -40,4 +40,13 @@ var (
 		Usage:     "signature files",
 		TakesFile: true,
 	}
+	flagAzure = &cli.StringFlag{
+		Name:  "azure",
+		Usage: "azure key id",
+	}
+	flagAzureCredential = &cli.StringFlag{
+		Name:    "azure-credential",
+		Aliases: []string{"azure-auth"},
+		Usage:   "azure credential in '<tenant_id>:<client_id>:<secret>'",
+	}
 )

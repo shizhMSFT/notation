@@ -49,13 +49,21 @@ var verifyCommand = &cli.Command{
 		flagPassword,
 		flagPlainHTTP,
 		flagMediaType,
+		flagAzure,
+		flagAzureCredential,
 	},
 	Action: runVerify,
 }
 
 func runVerify(ctx *cli.Context) error {
 	// initialize
-	verifier, err := getVerifier(ctx)
+	var verifier notation.Verifier
+	var err error
+	if ctx.String(flagAzure.Name) == "" {
+		verifier, err = getVerifier(ctx)
+	} else {
+		verifier, err = getAzureVerifier(ctx)
+	}
 	if err != nil {
 		return err
 	}

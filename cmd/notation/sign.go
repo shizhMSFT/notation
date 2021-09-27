@@ -39,13 +39,21 @@ var signCommand = &cli.Command{
 		flagPassword,
 		flagPlainHTTP,
 		flagMediaType,
+		flagAzure,
+		flagAzureCredential,
 	},
 	Action: runSign,
 }
 
 func runSign(ctx *cli.Context) error {
 	// initialize
-	signer, err := cmd.GetSigner(ctx)
+	var signer notation.Signer
+	var err error
+	if ctx.String(flagAzure.Name) == "" {
+		signer, err = cmd.GetSigner(ctx)
+	} else {
+		signer, err = getAzureSigner(ctx)
+	}
 	if err != nil {
 		return err
 	}
