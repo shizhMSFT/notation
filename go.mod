@@ -8,7 +8,7 @@ require (
 	github.com/notaryproject/notation-core-go v0.0.0-20220602183001-a7b72555a44b
 	github.com/notaryproject/notation-go v0.8.0-alpha.1.0.20220622031208-45f149e1b5ae
 	github.com/opencontainers/go-digest v1.0.0
-	github.com/urfave/cli/v2 v2.10.3
+	github.com/urfave/cli/v2 v2.11.0
 	oras.land/oras-go/v2 v2.0.0-20220620164807-8b2a54608a94
 )
 
