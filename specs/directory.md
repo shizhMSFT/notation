@@ -34,8 +34,8 @@ Default directory paths for various operating systems at system level are specif
 | Directory | Unix           | Windows                       | Darwin                         |
 | --------- | -------------- | ----------------------------- | ------------------------------ |
 | `BIN`     | `/usr/bin`     | `%ProgramFiles%/notation/bin` | `/usr/local/bin`               |
-| `LIBEXEC` | `/usr/libexec` | `%ProgramFiles%`              | `/usr/local/lib`               |
-| `CONFIG`  | `/etc`         | `%ProgramData%`               | `/Library/Application Support` |
+| `LIBEXEC` | `/usr/libexec/notation` | `%ProgramFiles%/notation`              | `/usr/local/lib/notation`               |
+| `CONFIG`  | `/etc/notation`         | `%ProgramData%/notation`               | `/Library/Application Support/notation` |
 
 `CACHE` is omitted since it is user specific.
 
@@ -45,9 +45,9 @@ Default directory paths for various operating systems at user level are specifie
 
 | Directory | Unix               | Windows          | Darwin                          |
 | --------- | ------------------ | ---------------- | ------------------------------- |
-| `LIBEXEC` | `$XDG_CONFIG_HOME` | `%AppData%`      | `~/Library/Application Support` |
-| `CONFIG`  | `$XDG_CONFIG_HOME` | `%AppData%`      | `~/Library/Application Support` |
-| `CACHE`   | `$XDG_CACHE_HOME`  | `%LocalAppData%` | `~/Library/Caches`              |
+| `LIBEXEC` | `$XDG_CONFIG_HOME/notation` | `%AppData%/notation`      | `~/Library/Application Support/notation` |
+| `CONFIG`  | `$XDG_CONFIG_HOME/notation` | `%AppData%/notation`      | `~/Library/Application Support/notation` |
+| `CACHE`   | `$XDG_CACHE_HOME/notation`  | `%LocalAppData%/notation` | `~/Library/Caches/notation`              |
 
 On Unix, `$XDG_CONFIG_HOME` is default to `~/.config` and `$XDG_CACHE_HOME` is default to `~/.cache` if XDG environment variables are empty.
 
