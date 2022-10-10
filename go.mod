@@ -5,7 +5,7 @@ go 1.18
 require (
 	github.com/distribution/distribution/v3 v3.0.0-20220729163034-26163d82560f
 	github.com/docker/docker-credential-helpers v0.6.4
-	github.com/notaryproject/notation-core-go v0.1.0-alpha.3
+	github.com/notaryproject/notation-core-go v0.1.0-alpha.4
 	github.com/notaryproject/notation-go v0.10.0-alpha.3
 	github.com/opencontainers/go-digest v1.0.0
 	github.com/spf13/cobra v1.5.0
@@ -14,7 +14,6 @@ require (
 )
 
 require (
-	github.com/golang-jwt/jwt/v4 v4.4.2 // indirect
 	github.com/inconshreveable/mousetrap v1.0.0 // indirect
 	github.com/opencontainers/distribution-spec/specs-go v0.0.0-20220620172159-4ab4752c3b86 // indirect
 	github.com/opencontainers/image-spec v1.0.3-0.20211202183452-c5a74bcca799 // indirect

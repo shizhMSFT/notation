@@ -6,11 +6,10 @@ github.com/distribution/distribution/v3 v3.0.0-20220729163034-26163d82560f/go.mo
 github.com/docker/docker-credential-helpers v0.6.4 h1:axCks+yV+2MR3/kZhAmy07yC56WZ2Pwu/fKWtKuZB0o=
 github.com/docker/docker-credential-helpers v0.6.4/go.mod h1:ofX3UI0Gz1TteYBjtgs07O36Pyasyp66D2uKT7H8W1c=
 github.com/golang-jwt/jwt/v4 v4.4.2 h1:rcc4lwaZgFMCZ5jxF9ABolDcIHdBytAFgqFPbSJQAYs=
-github.com/golang-jwt/jwt/v4 v4.4.2/go.mod h1:m21LjoU+eqJr34lmDMbreY2eSTRJ1cv77w39/MY0Ch0=
 github.com/inconshreveable/mousetrap v1.0.0 h1:Z8tu5sraLXCXIcARxBp/8cbvlwVa7Z1NHg9XEKhtSvM=
 github.com/inconshreveable/mousetrap v1.0.0/go.mod h1:PxqpIevigyE2G7u3NXJIT2ANytuPF1OarO4DADm73n8=
-github.com/notaryproject/notation-core-go v0.1.0-alpha.3 h1:gzB+h5TGzuocWiJxuYZgE/FwUIbJyKAHfk2hWSBbCGg=
-github.com/notaryproject/notation-core-go v0.1.0-alpha.3/go.mod h1:Wfyh5SrQ718JegKPhTs7y74rXg86tWd5NfOx2uHK1nI=
+github.com/notaryproject/notation-core-go v0.1.0-alpha.4 h1:0OhA2PjwT0TAouHOrU4K+8H9YM6E/e4/ocoq+JiHeOw=
+github.com/notaryproject/notation-core-go v0.1.0-alpha.4/go.mod h1:s8DZptmN1rZS0tBLTPt/w+d4o6eAcGWTYYJlXaJhQ4U=
 github.com/notaryproject/notation-go v0.10.0-alpha.3 h1:jDIwUzGHsxwXuIFYLwQ1pPzpO5GFcoaA1X78EixIBo4=
 github.com/notaryproject/notation-go v0.10.0-alpha.3/go.mod h1:PQuu7OZweVU5erEyqriguCvK7CCGF+X5psDj63iEvGk=
 github.com/opencontainers/distribution-spec/specs-go v0.0.0-20220620172159-4ab4752c3b86 h1:Oumw+lPnO8qNLTY2mrqPJZMoGExLi/0h/DdikoLTXVU=
