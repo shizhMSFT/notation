@@ -9,7 +9,7 @@ require (
 	github.com/notaryproject/tspclient-go v1.0.1-0.20250306063739-4f55b14d9f01
 	github.com/opencontainers/go-digest v1.0.0
 	github.com/opencontainers/image-spec v1.1.1
-	github.com/sirupsen/logrus v1.9.3
+	github.com/sirupsen/logrus v1.9.4
 	github.com/spf13/cobra v1.9.1
 	github.com/spf13/pflag v1.0.7
 	golang.org/x/term v0.34.0
